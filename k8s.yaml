@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: mission-control
-          image: dimitar6768/mission-control:latest
+          image: dporkov/mission-control:latest
           ports:
             - containerPort: 80
           resources:

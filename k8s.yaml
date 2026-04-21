@@ -54,7 +54,7 @@ metadata:
     traefik.ingress.kubernetes.io/router.entrypoints: web
 spec:
   rules:
-    - host: mission-control.local   # change to your domain or use nip.io
+    - host: mission-control.dporkov.tech   # change to your domain or use nip.io
       http:
         paths:
           - path: /
